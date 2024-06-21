@@ -11,8 +11,8 @@ const UPIPayment = () => {
     }
   }, []); // Empty dependency array means this runs once after initial render
 
-  const upiId = "himanshukr1151@axl";
-  const payeeName = "Himanshu Kumar";
+  const upiId = "rajat123468-1@okicici";
+  const payeeName = "Rajat Shrivastava";
   const transactionNote = "Payment for Payee";
 
   // const upiId = "9099681841@hdfcbank";
