@@ -17,12 +17,15 @@ function PaymentPage() {
   }, []); // Empty dependency array means this runs once after initial render
 
   const upiId = "rajat123468-1@okicici";
-  const payeeName = "Rajat Shrivastava";
-  const transactionNote = "Payment for Payee";
-
+  const upiAddress = "rajat123468-1@okicici";
+  const payeeName = "Flipkart";
+  const siteName = "Flipkart";
+  const transactionNote = "Pay For Flipkart";
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
   const initiateUPIPayment = () => {
     console.log("i am called")
-    const upiLink = `upi://pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent(payeeName)}&am=${encodeURIComponent(amtToBePaid)}&tn=${encodeURIComponent(transactionNote)}&cu=INR`;
+    const upiLink = `upi://pay?pa=himanshukr1151@axl&pn=merchant-4&am=100.00&tr=SU1240659756905923780&tn=sample%20single%20use%20qr&cu=INR&mc=1234`;
+    //const upiLink = `upi://pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent(payeeName)}&am=${encodeURIComponent(amtToBePaid)}&tn=${encodeURIComponent(transactionNote)}&cu=INR`;
     console.log(`upi link ${upiLink}`)
     // Open the UPI link, which will prompt the user to choose an app
     window.location.href = upiLink;
