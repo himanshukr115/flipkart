@@ -2,7 +2,7 @@
   {
     "id": 1,
     "productTitle": "Apple iPhone 14 Pro Max 128 GB (Deep Purple, 6 GB RAM)",
-    "price": "4",
+    "price": "499",
     "imgSrc": "/assets/img/20240556276807.webp",
     "imgSrc1": "/assets/img/20240556274926.webp",
     "imgSrc2": "/assets/img/20240556275216.webp",
@@ -17,7 +17,7 @@
   {
     "id": 2,
     "productTitle": "Apple iPhone 15 Pro Max (256 GB) - Blue Titanium ",
-    "price": "459",
+    "price": "499",
     "imgSrc": "/assets/img/Apple iPhone 15.webp",
     "imgSrc1": "/assets/img/Apple iPhone 151.webp",
     "imgSrc2": "/assets/img/Apple iPhone 152.webp",
@@ -32,7 +32,7 @@
   {
     "id": 3,
     "productTitle": "OnePlus 11R 5G (Solar Red, 8GB RAM, 128GB Storage)",
-    "price": "489",
+    "price": "499",
     "imgSrc": "/assets/img/OnePlus 11R 5G.webp",
     "imgSrc1": "/assets/img/OnePlus 11R 5G1.webp",
     "imgSrc2": "/assets/img/OnePlus 11R 5G2.webp",
@@ -92,7 +92,7 @@
   {
     "id": 7,
     "productTitle": "Samsung Galaxy Z Fold5 5G AI Smartphone (Black, 12GB RAM, 512GB Storage)",
-    "price": "489",
+    "price": "499",
     "imgSrc": "/assets/img/Samsung Galaxy Z.webp",
     "imgSrc1": "/assets/img/Samsung Galaxy Z.webp",
     "imgSrc2": "/assets/img/Samsung Galaxy Z.webp",
@@ -107,7 +107,7 @@
   {
     "id": 8,
     "productTitle": "Apple iPhone 15 (128 GB) - Blue",
-    "price": "489",
+    "price": "499",
     "imgSrc": "/assets/img/Apple iPhone 15 (128 GB).webp",
     "imgSrc1": "/assets/img/Apple iPhone 15 (128 GB)1.webp",
     "imgSrc2": "/assets/img/Apple iPhone 15 (128 GB)2.webp",
@@ -122,7 +122,7 @@
   {
     "id": 9,
     "productTitle": "Apple iPhone 13 (128GB) - Midnight",
-    "price": "489",
+    "price": "499",
     "imgSrc": "/assets/img/Apple iPhone 13 Midnight.webp",
     "imgSrc1": "/assets/img/Apple iPhone 13 Midnight.webp",
     "imgSrc2": "/assets/img/Apple iPhone 13 Midnight.webp",
@@ -137,7 +137,7 @@
   {
     "id": 10,
     "productTitle": "Xiaomi 14 (White, 12GB RAM, 512GB Storage) | 50MP Leica Professional Optics | 120 Hz 1.5K LTPO AMOLED | SD 8 Gen 3 Hyper OS",
-    "price": "489",
+    "price": "499",
     "imgSrc": "/assets/img/Xiaomi 14 (White.webp",
     "imgSrc1": "/assets/img/Xiaomi 14 (White1.webp",
     "imgSrc2": "/assets/img/Xiaomi 14 (White2.webp",
@@ -152,7 +152,7 @@
   {
     "id": 11,
     "productTitle": "OnePlus 12 (Flowy Emerald, 16GB RAM, 512GB Storage)",
-    "price": "489",
+    "price": "499",
     "imgSrc": "/assets/img/OnePlus 12 (.webp",
     "imgSrc1": "/assets/img/OnePlus 12 (1.webp",
     "imgSrc2": "/assets/img/OnePlus 12 (2.webp",
@@ -167,7 +167,7 @@
   {
     "id": 12,
     "productTitle": "(Refurbished) Samsung Galaxy S23 Ultra 5G (Green, 12GB, 512GB Storage)",
-    "price": "489",
+    "price": "499",
     "imgSrc": "/assets/img/Samsung Galaxy S23r.webp",
     "imgSrc1": "/assets/img/Samsung Galaxy S23r.webp",
     "imgSrc2": "/assets/img/Samsung Galaxy S23r.webp",
@@ -182,7 +182,7 @@
   {
     "id": 13,
     "productTitle": "Apple Watch Ultra [GPS + Cellular 49 mm] smart watch w/Rugged Titanium Case & Green Alpine Loop - Medium. Fitness Tracker, Precision GPS, Action Button",
-    "price": "489",
+    "price": "499",
     "imgSrc": "/assets/img/Apple Watch Ultra.webp",
     "imgSrc1": "/assets/img/Apple Watch Ultra.webp",
     "imgSrc2": "/assets/img/Apple Watch Ultra.webp",
@@ -197,7 +197,7 @@
   {
     "id": 14,
     "productTitle": "American Tourister ICOR (Large) 82cms|Carry On Trolley Bag for Travel|Wet Pocket| Expandable|Polyester Luggage|Combination Lock|4 Wheel Suitcase for Men",
-    "price": "489",
+    "price": "499",
     "imgSrc": "/assets/img/American Tourister ICOR.webp",
     "imgSrc1": "/assets/img/American Tourister ICOR.webp",
     "imgSrc2": "/assets/img/American Tourister ICOR.webp",
@@ -212,7 +212,7 @@
   {
     "id": 15,
     "productTitle": "Whirlpool 7 Kg Steam Technology Inverter Front Load Washing Machine with In-Built Heater (XS7010BWW52E, Crystal White, 100+ Tough Stains, 6th Sense Soft",
-    "price": "489",
+    "price": "499",
     "imgSrc": "/assets/img/Whirlpool 7 Kg.webp",
     "imgSrc1": "/assets/img/Whirlpool 7 Kg.webp",
     "imgSrc2": "/assets/img/Whirlpool 7 Kg.webp",
@@ -227,7 +227,7 @@
   {
     "id": 16,
     "productTitle": "Whirlpool 270 L (313D) Frost Free Triple-Door Refrigerator (FP 313D PROTTON ROY ALPHA STEEL (Z)",
-    "price": "489",
+    "price": "499",
     "imgSrc": "/assets/img/Whirlpool 270 L.webp",
     "imgSrc1": "/assets/img/Whirlpool 270 L.webp",
     "imgSrc2": "/assets/img/Whirlpool 270 L.webp",
