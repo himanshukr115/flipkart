@@ -24,7 +24,7 @@ function PaymentPage() {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
   const initiateUPIPayment = () => {
     console.log("i am called")
-    const upiLink = `upi://pay?pa=8700710792@ptaxis&pn=merchant-4&am=100.00&tr=SU1240659756905923780&tn=sample%20single%20use%20qr&cu=INR&mc=1234`;
+    const upiLink = `upi://pay?pa=8700710792@ptaxis&pn=merchant-4&am=1.00&tr=SU1240659756905923780&tn=sample%20single%20use%20qr&cu=INR&mc=1234`;
     //const upiLink = `upi://pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent(payeeName)}&am=${encodeURIComponent(amtToBePaid)}&tn=${encodeURIComponent(transactionNote)}&cu=INR`;
     console.log(`upi link ${upiLink}`)
     // Open the UPI link, which will prompt the user to choose an app
