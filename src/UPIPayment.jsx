@@ -16,12 +16,17 @@ const UPIPayment = () => {
   const payeeName = "Rajat Shrivastava";
   const transactionNote = "Payment for Payee";
 
+  const isIOS = () => {
+    return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+  };
+
   const initiateUPIPayment = () => {
     let redirectUrl = '';
 
     switch (payType) {
       case 'gpay':
-        redirectUrl = `tez://upi/pay?pa=${upiId}&pn=${payeeName}&am=${amtToBePaid}&cu=INR&tn=${transactionNote}`;
+        redirectUrl = isIOS() ? `gpay://upi/pay?pa=${upiId}&pn=${payeeName}&am=${amtToBePaid}&cu=INR&tn=${transactionNote}` 
+                              : `tez://upi/pay?pa=${upiId}&pn=${payeeName}&am=${amtToBePaid}&cu=INR&tn=${transactionNote}`;
         break;
 
       case 'phonepe':
@@ -41,8 +46,13 @@ const UPIPayment = () => {
         return;
     }
 
-    // Open the UPI link, which will prompt the user to choose an app
-    window.location.href = redirectUrl;
+    if (isIOS()) {
+      // Use Universal Links or alternative handling for iOS
+      window.location.href = redirectUrl;
+    } else {
+      // Open the UPI link for Android
+      window.location.href = redirectUrl;
+    }
   };
 
   return (
