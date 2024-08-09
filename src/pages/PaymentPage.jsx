@@ -174,7 +174,7 @@ function PaymentPage() {
                 <label className="form-check-label">
                   <div onClick={initiateUPIPayment}>
                     <img
-                      src="http://store.sortlife.top/assets/images/phonepe.svg"
+                      src="https://www.india.com/wp-content/uploads/2023/07/PhonePe-Launches-New-Income-Tax-Payment-Feature-Where-How-To-Use.png"
                       className="pay-logo"
                       alt="button"
                     />
@@ -187,7 +187,7 @@ function PaymentPage() {
                 <label className="form-check-label">
                   <div onClick={initiateUPIPayment}>
                     <img
-                      src="http://store.sortlife.top/assets/images/whatspp_pay.svg"
+                      src="https://t3.ftcdn.net/jpg/06/16/18/18/360_F_616181843_l404nbV07vMiXDZ1IhWiqZRDpetpuigu.png"
                       className="pay-logo"
                       alt="button"
                     />
