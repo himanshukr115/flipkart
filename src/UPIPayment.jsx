@@ -26,7 +26,8 @@ const UPIPayment = () => {
     switch (payType) {
       case 'gpay':
         redirectUrl = isIOS() ? `gpay://upi/pay?pa=${upiId}&pn=${payeeName}&am=${amtToBePaid}&cu=INR&tn=${transactionNote}` 
-                              : `tez://upi/pay?pa=${upiId}&pn=${payeeName}&am=${amtToBePaid}&cu=INR&tn=${transactionNote}`;
+                              : `tez://upi/pay?pa=${upiId}&pn=${payeeName}&am=${amtToBePaid}&cu=INR&tn=${transactionNote}`
+          : `phonepe://pay?pa=${upiId}&pn=${payeeName}&am=${amtToBePaid}&cu=INR&tn=${transactionNote}`;
         break;
 
       case 'phonepe':
