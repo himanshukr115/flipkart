@@ -37,9 +37,9 @@ const UPIPayment = () => {
         redirectUrl = `paytmmp://pay?pa=${upiId}&pn=${payeeName}&am=${amtToBePaid}&cu=INR&tn=${transactionNote}`;
         break;
 
-      case 'upi':
-        redirectUrl = `upi://pay?pa=${upiId}&pn=${payeeName}&am=${amtToBePaid}&cu=INR&tn=${transactionNote}`;
-        break;
+      // case 'upi':
+      //   redirectUrl = `upi://pay?pa=${upiId}&pn=${payeeName}&am=${amtToBePaid}&cu=INR&tn=${transactionNote}`;
+      //   break;
 
       default:
         alert('Please select a payment method.');
