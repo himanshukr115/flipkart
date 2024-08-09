@@ -145,7 +145,7 @@ function ConfirmationPage() {
           <ul className="list-group list-group-flush" id="deals">
             <li className="list-group-item px-0" data-timer="2000">
               <div className="flex recommended-product">
-                <img src="" id="item_image" />
+                <img src="{selectedProduct.imgSrc}" id="item_image" />
                 <div className="description">
                   <div className="product-title mb-1" id="product-title"></div>
 
