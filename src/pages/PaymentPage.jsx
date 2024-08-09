@@ -184,16 +184,18 @@ function PaymentPage() {
               </div>
 
               <div className="form-check available-method" pay-type="phonepe">
-                <label className="form-check-label">
-                  <div onClick={initiateUPIPayment}>
-                    <img
-                      src="https://t3.ftcdn.net/jpg/06/16/18/18/360_F_616181843_l404nbV07vMiXDZ1IhWiqZRDpetpuigu.png"
-                      className="pay-logo"
-                      alt="button"
-                    />
-                    <span className="unaviablee">Other UPI</span>
-                  </div>
-                </label>
+               <label className="form-check-label">
+  <div onClick={initiateUPIPayment}>
+    <img
+      src="https://cdn.zeebiz.com/sites/default/files/2024/01/03/274966-upigpay.jpg"
+      className="pay-logo"
+      alt="button"
+      style={{ width: '150px', height: 'auto' }} // Adjust size as needed
+    />
+    <span className="unaviablee">PhonePe</span>
+  </div>
+</label>
+
               </div>
             </div>
           </div>
