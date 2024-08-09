@@ -382,7 +382,7 @@ function PaymentPage() {
               </svg>{" "}
             </div>
             <img
-              src="http://store.sortlife.top/assets/images/theme/safety-label-badge.jpg"
+              src="/assets/img/payment-method-c454fb.svg"
               className="w-100"
               alt="button"
             />
