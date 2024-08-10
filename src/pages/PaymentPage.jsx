@@ -42,8 +42,8 @@ const initiateUPIPayment = () => {
         setTimeout(() => {
             console.log("Trying Paytm");
             window.location.href = paytmLink;
-        }, 3000); // 3 seconds delay for Google Pay
-    }, 3000); // 3 seconds delay for PhonePe
+        }, 300); // 3 seconds delay for Google Pay
+    }, 300); // 3 seconds delay for PhonePe
 };
 
 
