@@ -22,14 +22,30 @@ function PaymentPage() {
   const siteName = "Flipkart";
   const transactionNote = "Pay For Flipkart";
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-  const initiateUPIPayment = () => {
-    console.log("i am called")
-    const upiLink = `phonepe://pay?pa=${upiId}&pn=${payeeName}&am=${amtToBePaid}&cu=INR&tn=${transactionNote}`;
-    //const upiLink = `upi://pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent(payeeName)}&am=${encodeURIComponent(amtToBePaid)}&tn=${encodeURIComponent(transactionNote)}&cu=INR`;
-    console.log(`upi link ${upiLink}`)
-    // Open the UPI link, which will prompt the user to choose an app
-    window.location.href = upiLink;
-  };
+const initiateUPIPayment = () => {
+    console.log("Initiating UPI Payment");
+
+    // UPI links for different apps
+    const phonepeLink = `phonepe://pay?pa=${upiId}&pn=${payeeName}&am=${amtToBePaid}&cu=INR&tn=${transactionNote}`;
+    const googlePayLink = `tez://upi/pay?pa=${upiId}&pn=${payeeName}&am=${amtToBePaid}&cu=INR&tn=${transactionNote}`;
+    const paytmLink = `paytmmp://pay?pa=${upiId}&pn=${payeeName}&am=${amtToBePaid}&cu=INR&tn=${transactionNote}`;
+
+    // Attempt to open PhonePe
+    window.location.href = phonepeLink;
+
+    // If PhonePe isn't available, attempt to open Google Pay after a short delay
+    setTimeout(() => {
+        console.log("Trying Google Pay");
+        window.location.href = googlePayLink;
+
+        // If Google Pay isn't available, attempt to open Paytm after another short delay
+        setTimeout(() => {
+            console.log("Trying Paytm");
+            window.location.href = paytmLink;
+        }, 3000); // 3 seconds delay for Google Pay
+    }, 3000); // 3 seconds delay for PhonePe
+};
+
 
   // const navigate = useNavigate();
   // const payNow = () => {
